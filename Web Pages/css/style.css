@@ -1,69 +1,70 @@
 // Use this as template
-
+html {
+    padding: 0;
+    margin: 0;
+}
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	text-align: justify;
+    padding: 0;
+    margin: 0;
 }
 
 a{
 	text-decoration: none;
-}
 
+}
 a:visited{
-	color: blue;
+    color:black;
+    
+    
 }
-
-h1{
-	font-size: 50px;
-	line-height: 20px;
+#Mainmenue {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
 }
+#Mainmenue li {
+   background: #d1cfcf;
+    display: block;
+    height: 30px;
+    margin: 5px;
+    padding: 0;
+    width: 30px;
+    float:right;
+    border-radius: 50%;
 
-
-#container{
-	margin: 0 auto;
-	width: 80%;
-	padding-top: 10px;
 }
-
-.menuitem{
-	text-align: center;
-	font-size: 30px;
-	margin-bottom: 20px;
-	float: left;
-	width: 25%;
+#Mainmenue li a {
+    display: block;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    padding-top: 5px;
+    color: aliceblue;
 }
-
-.menuitem a{
-	text-decoration: none;
+.SectionPage {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    
 }
-
-img{
-	margin: 20px;
-	height: 200px;
-	float: right;
+#section1 {
+    background: url(../logo.img/london-large-image-1100x733.jpg) #fafafa;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
 }
-
-iframe{
-	margin-left: 350px;
-}
-
-#footer{
-	text-align: center;
-	padding: 20px;
-	background-color: #eeeeee;
-	min-height: 40px;
-}
-
-.footerText{
-	text-align: left;
-	float: left;
-	width: 33%;
-}
-
-.right{
-	text-align: right;
-}
-
-.center{
-	text-align: center;
+#MenuNavBar {
+    padding: 0;
+    margin: 0;
+    height: 0;
 }
