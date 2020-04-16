@@ -30,7 +30,7 @@ a:visited{
     z-index: 999;
 }
 #Mainmenue li {
-   background: #d1cfcf;
+   background:#fcfcfc;
     display: block;
     height: 30px;
     margin: 5px;
@@ -46,7 +46,7 @@ a:visited{
     text-align: center;
     align-content: center;
     padding-top: 5px;
-    color: aliceblue;
+    color: black;
 }
 .SectionPage {
     display: block;
@@ -57,11 +57,11 @@ a:visited{
     
 }
 #section1 {
-    background: url(../logo.img/london-large-image-1100x733.jpg) #fafafa;
+    background: url(../logo.img/urbansimulation.png) #fafafa;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 #MenuNavBar {
     padding: 0;
