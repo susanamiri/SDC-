@@ -57,7 +57,7 @@ a:visited{
     
 }
 #section1 {
-    background: url(../logo.img/urbansimulation.png) #fafafa;
+   /* background: url(../logo.img/urbansimulation.png) #fafafa;*/
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -72,8 +72,8 @@ a:visited{
     margin-top: 140px;
     height: 100px;
     width: 100%;
-   /*margin-left: 60px*/
-    text-align: center;
+    margin-left: 60px
+    /*text-align: center;*/
 
     
 }
